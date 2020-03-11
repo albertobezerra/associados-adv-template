@@ -1,0 +1,74 @@
+/*
+Theme Name: Advogados Associados
+Theme URI: 
+Author: Alberto Bezerra
+Author URI: http://www.equipebezerradasilva.com/alberto
+Description: Tema desenvolvido sobre demanda.
+Version: 1.0
+Tags: Advogados Associados, Advocagia, Direto
+
+*/
+
+.container {
+    padding: 10px;
+}
+
+@font-face{
+    font-family: 'Cabin', sans-serif;
+}
+
+.header .navbar-custom{
+    background: white;
+
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #93278F;
+    font-size: 14px;
+    font-family: Cabin;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a:focus{
+	color: #93278F;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #fff;
+	background-color: #93278F;
+}
+
+.navbar-default .navbar-nav>li>a:active{
+	color: #fff;
+	background-color: #93278F;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover{
+	color: #fff;
+	background-color: #93278F;
+}
+
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+    border: none !important;
+}
+
+
+.navbar-toggle{
+	border: none !important;
+	background: #93278F !important;
+
+}
+
+.navbar-toggle:hover{
+	background-color: #771F77 !important;
+}
+
+
+.navbar-toggle .icon-bar {
+  background-color: #fff !important;
+}
