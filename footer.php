@@ -1,4 +1,10 @@
-<h1>Footer aqui</h1>
+<div class="buceta">
+
+    <h1>Footer aqui</h1>
+
+</div>
+
+
 
 <?php wp_footer(); ?>
 

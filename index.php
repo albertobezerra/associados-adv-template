@@ -1,5 +1,14 @@
 <?php get_header(); ?>
 
-    <h1>Oremos</h1>
+
+<div class="inicio">
+
+sadsdf
+
+</div>      
+
+
+    
+    
 
 <?php get_footer(); ?>
