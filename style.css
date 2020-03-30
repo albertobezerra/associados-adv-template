@@ -13,26 +13,26 @@ Tags: Advogados Associados, Advocagia, Direto
     padding: 10px;
 }
 
-@font-face{
+@font-face {
     font-family: 'Cabin', sans-serif;
     font-family: 'Oswald', sans-serif;
 }
 
 
-.navbar-light .navbar-nav .active > .nav-link{
-	color: white;
+.navbar-light .navbar-nav .active > .nav-link {
+    color: white;
     background-color: #F08080;
     padding: 10px;
 }
 
-.navbar-light .navbar-nav .nav-link{
-	color: white;
+.navbar-light .navbar-nav .nav-link {
+    color: white;
     padding: 10px;
     text-transform: uppercase;
 }
 
-.navbar-light .navbar-nav .nav-link:hover{
-	color: white;
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
     background-color: #F08080;
 }
 
@@ -40,49 +40,57 @@ Tags: Advogados Associados, Advocagia, Direto
     background: white;
 }
 
-.bg-light-custom{
-	background: #C0C0C0 !important;
+.bg-light-custom {
+    background: #C0C0C0 !important;
 }
 
 .navbar-brand.navbar-brand-custom {
     color: white;
 }
+
 .navbar-brand.navbar-brand-custom:hover {
     color: white;
 }
+
 .navbar-brand.navbar-brand-custom:active {
     color: white;
 }
 
-.inicio{
+.inicio {
     margin-top: 80px;
     background-color: aqua;
 }
 
-.areasdeatuacao{
+.areasdeatuacao {
     background-color: darkgray;
     text-align: center;
 }
 
-.esp{
+.esp {
     text-transform: uppercase;
     font-family: Oswald;
 }
 
-.blog-inicial{
+.blog-inicial {
     background-color: bisque;
     text-align: center;
 }
 
-.footer{
+.footer {
     text-align: center;
 }
 
-.footer1{
+.footer1 {
     padding: 0 !important;
     border: 0 !important;
 }
 
-.footer2{
-    
+.footer2 {}
+
+
+.blog > h1 {
+
+    color: chartreuse;
+    font-size: 50px;
+
 }
