@@ -34,7 +34,7 @@
 			<?php
 			wp_nav_menu( array(
 				'menu'              => 'Menu',
-				'theme_location'    => 'menu-header',
+				'theme_location'    => 'Primary Menu',
 				'depth'             => 2,
 				'container'         => 'div',
 				'container_class'   => 'collapse navbar-collapse',
