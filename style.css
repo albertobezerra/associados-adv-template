@@ -1,0 +1,88 @@
+/*
+Theme Name: Advogados Associados
+Theme URI: 
+Author: Alberto Bezerra
+Author URI: http://www.equipebezerradasilva.com/alberto
+Description: Tema desenvolvido sobre demanda.
+Version: 1.0
+Tags: Advogados Associados, Advocagia, Direto
+
+*/
+
+.container {
+    padding: 10px;
+}
+
+@font-face{
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.navbar-light .navbar-nav .active > .nav-link{
+	color: white;
+    background-color: #F08080;
+    padding: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: white;
+    background-color: #F08080;
+}
+
+.navbar-light .navbar-toggler {
+    background: white;
+}
+
+.bg-light-custom{
+	background: #C0C0C0 !important;
+}
+
+.navbar-brand.navbar-brand-custom {
+    color: white;
+}
+.navbar-brand.navbar-brand-custom:hover {
+    color: white;
+}
+.navbar-brand.navbar-brand-custom:active {
+    color: white;
+}
+
+.inicio{
+    margin-top: 80px;
+    background-color: aqua;
+}
+
+.areasdeatuacao{
+    background-color: darkgray;
+    text-align: center;
+}
+
+.esp{
+    text-transform: uppercase;
+    font-family: Oswald;
+}
+
+.blog-inicial{
+    background-color: bisque;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer1{
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+.footer2{
+    
+}
