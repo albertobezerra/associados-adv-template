@@ -12,7 +12,28 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15792.995674474745!2d-35.987384432789!3d-8.278006270467612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a98bba4a5fecdb%3A0x36c5f5ad6210b74f!2sSeletto%20Eventos!5e0!3m2!1spt-BR!2sbr!4v1584630238108!5m2!1spt-BR!2sbr" width="100%" height="570" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
             <div class="col-sm-6 col-md-5 col-lg-6 footer2">
-                Formulario de email, aqui!
+                <br>
+                <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/mail.png"><br><br><br>
+
+                <form>
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="nome" placeholder="Seu nome?">
+                    </div>
+                    <div class="form-group">
+                        <input type="phone" class="form-control" id="telefone" placeholder="Qual o número do seu telefone?">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder="Qual o seu email?">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite aqui, o que você precisa!"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+
+                </form>
+
             </div>
         </div>
 
@@ -20,7 +41,6 @@
     </div>
 
 </div>
-
 
 
 <?php wp_footer(); ?>
