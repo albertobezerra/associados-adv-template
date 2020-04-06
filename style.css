@@ -78,13 +78,19 @@ Tags: Advogados Associados, Advocagia, Direto
     color: #67071F;
 }
 
+.esp3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Oswald;
+    color: #67071F;
+}
+
 .blog-inicial {
     background-color: #7D7C7D;
     text-align: center;
 }
 
 .footer {
-    text-align: center;
     background-image: url("assets/images/caruaru.jpg");
     background-size: cover;
 }
@@ -96,11 +102,50 @@ Tags: Advogados Associados, Advocagia, Direto
 
 
 .footer2 {
-    background-color: aquamarine;
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 40px;
+    text-align: center;
 }
+
+.form-control2{
+
+    color: white;
+    background-color: #67071f;
+    border: 1px solid white;
+    
+}
+
+.form-control2:focus{
+
+    color: white;
+    background-color: #67071f;
+    border: 1px solid white;
+}
+
+.btn-enviar{
+    color: white;
+    width: 100%;
+    background-color: #67071f;
+    border: 1px solid white;
+}
+
+.btn-enviar:hover{
+    color: white;
+    width: 100%;
+    background-color: #33040f;
+    border: 1px solid white;
+}
+
+.rodade{
+    background-color: black;
+}
+
+.redes{
+    
+    
+}
+
 
 
 .blog > h1 {

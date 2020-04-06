@@ -3,8 +3,8 @@
     <div class="container">
 
         <br><br>
-        <p class="esp2">Venha conversar conosco!</p>
-        <h1 class="esp2">Entre em contato</h1><br><br>
+        <p class="esp3">Venha conversar conosco!</p>
+        <h1 class="esp3">Entre em contato</h1><br><br>
 
 
         <div class="row">
@@ -18,19 +18,19 @@
                 <form>
 
                     <div class="form-group">
-                        <input type="text" class="form-control" id="nome" placeholder="Seu nome?">
+                        <input type="text" class="form-control form-control2" id="nome" placeholder="Seu nome?">
                     </div>
                     <div class="form-group">
-                        <input type="phone" class="form-control" id="telefone" placeholder="Qual o número do seu telefone?">
+                        <input type="phone" class="form-control form-control2" id="telefone" placeholder="Qual o número do seu telefone?">
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="email" placeholder="Qual o seu email?">
+                        <input type="email" class="form-control form-control2" id="email" placeholder="Qual o seu email?">
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite aqui, o que você precisa!"></textarea>
+                        <textarea class="form-control form-control2" id="exampleFormControlTextarea1" rows="3" placeholder="Digite aqui, o que você precisa!"></textarea>
                     </div>
 
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit" class="btn btn-primary btn-enviar">Enviar</button>
 
                 </form>
 
@@ -38,6 +38,43 @@
         </div>
 
 
+    </div>
+    
+    <div class="rodade">
+        
+        <div class="container">
+            
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                
+                <div class="col">
+                
+                    Sobre
+
+                </div>
+                
+                <div class="col">
+                    
+                    Facebook
+               
+                </div>
+                
+                <div class="col">
+                
+                    Instagram
+
+                </div>
+                
+                <div class="col">
+                    
+                    Newsletter
+                    
+                </div>
+                
+            </div>
+            
+            
+        </div>
+        
     </div>
 
 </div>
