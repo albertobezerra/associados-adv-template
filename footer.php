@@ -47,8 +47,16 @@
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
                 
                 <div class="col">
-                
-                    Sobre
+                    
+                    <p class="localdologo">Local do logo</p>
+                    <div class="cidade">
+                    
+                    <span class="material-icons md-12 md-light">loyalty</span>
+                    Escritório de Advocacia localizado no coração de Caruaru.
+                    
+                    <p class="espacotop"><span class="material-icons md-12 md-light">phone_in_talk</span> 81 9 0000-0000</p>
+                    
+                    </div>
 
                 </div>
                 
