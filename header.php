@@ -7,11 +7,11 @@
 
     <title><?php wp_title('-',true,'right'); bloginfo(); ?></title>
 
-    <link rel="shortcut icon" href="<?php bloginfo( 'template_directory' ); ?>/assets/images/logo1.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php bloginfo( 'template_directory' ); ?>/assets/images/favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Oswald:700&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <?php wp_head(); ?>
@@ -25,7 +25,7 @@
 
             <div class="container">
 
-                <a class="navbar-brand" href=""><img src="<?php bloginfo('template_directory'); ?>/assets/images/logo.png" /></a>
+                <a class="navbar-brand" href=""><img src="<?php bloginfo('template_directory'); ?>/assets/images/logo-white.png" /></a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

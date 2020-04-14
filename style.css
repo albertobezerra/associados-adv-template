@@ -18,6 +18,10 @@ Tags: Advogados Associados, Advocagia, Direto
     font-family: 'Oswald', sans-serif;
 }
 
+.navbar-brand > img {
+    width: 280px;
+}
+
 
 .navbar-light .navbar-nav .active > .nav-link {
     color: white;
@@ -42,7 +46,7 @@ Tags: Advogados Associados, Advocagia, Direto
 
 .bg-light-custom {
     background: #67071F !important;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .navbar-brand.navbar-brand-custom {
@@ -109,65 +113,143 @@ Tags: Advogados Associados, Advocagia, Direto
     text-align: center;
 }
 
-.form-control2{
+.form-control2 {
 
     color: white;
     background-color: #67071f;
     border: 1px solid white;
-    
+
 }
 
-.form-control2:focus{
+.form-control2:focus {
 
     color: white;
     background-color: #67071f;
     border: 1px solid white;
 }
 
-.btn-enviar{
+.btn-enviar {
     color: white;
     width: 100%;
     background-color: #67071f;
     border: 1px solid white;
 }
 
-.btn-enviar:hover{
+.btn-enviar:hover {
     color: white;
     width: 100%;
     background-color: #33040f;
     border: 1px solid white;
 }
 
-.rodade{
+.rodade {
     background-color: black;
 }
 
-.localdologo{
+.localdologo {
     margin-top: 10px;
     color: white;
 }
 
 /* Rules for sizing the icon. */
-.material-icons.md-12 { font-size: 12px; }
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-12 {
+    font-size: 12px;
+}
+
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.material-icons.md-24 {
+    font-size: 24px;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
 
 /* Rules for using icons as black on a light background. */
-.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
-.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+.material-icons.md-dark {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.material-icons.md-dark.md-inactive {
+    color: rgba(0, 0, 0, 0.26);
+}
 
 /* Rules for using icons as white on a dark background. */
-.material-icons.md-light { color: rgba(255, 255, 255, 1); }
-.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+.material-icons.md-light {
+    color: rgba(255, 255, 255, 1);
+}
 
-.cidade{
+.material-icons.md-light.md-inactive {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.cidade {
     color: white;
     font-size: 12px;
 }
 
-.espacotop{
+.espacotop {
     margin-top: 12px;
 }
 
+
+/*======================================
+//--//-->   BLOG
+======================================*/
+
+.card-blog {
+    background-color: aquamarine;
+}
+
+.card-blog .card-img {
+    width: 100%;
+    height: auto;
+}
+
+.card-blog .card-body {
+    position: relative;
+}
+
+.card-blog .card-category-box {
+    position: absolute;
+    text-align: center;
+    top: -16px;
+    left: 15px;
+    right: 15px;
+    line-height: 25px;
+    overflow: hidden;
+}
+
+.card-blog .card-category {
+    display: inline-block;
+    color: #fff;
+    padding: 0 15px 5px;
+    overflow: hidden;
+    background-color: #0078ff;
+    border-radius: 4px;
+}
+
+.card-blog .card-category .category {
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: .7rem;
+    letter-spacing: .1px;
+    margin-bottom: 0;
+}
+
+.card-blog .card-title {
+    font-size: 1.3rem;
+    margin-top: .6rem;
+}
+
+.card-blog .card-description {
+    color: #4e4e4e;
+}

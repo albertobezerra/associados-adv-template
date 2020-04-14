@@ -93,37 +93,53 @@
         <br><br>
         <p class="esp">Últimas postagens</p>
         <h1 class="esp">Blog</h1><br><br><br>
-        
-            
 
-        <div class="row row-cols-1 row-cols-md-3">
-            <div class="col mb-4">
-               
+        <div class="row">
+
             <?php 
-            $args = array('post_type'=>'post', 'category_name'=>'blog');
+            $args = array('post_type'=>'post', 'category_name'=>'blog', 'showposts'=>7 );
             $my_posts = get_posts( $args );
-            if($my_posts) : foreach($my_posts as $post) : setup_postdata( $post );
-            ?>
-               
-                <div class="card">
-                    <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/direito.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            if($my_posts) : foreach($my_posts as $post) : setup_postdata( $post );?>
+
+            <div class="col-md-4">
+
+                <div class="card card-blog">
+
+                    <div class="card-img">
+                        <a href="<?php the_permalink(); ?>">
+                            <?php the_post_thumbnail(false, array('class'=>'img-fluid')); ?></a>
                     </div>
+                    <div class="card-body">
+                        <div class="card-category-box">
+                            <div class="card-category">
+                                <h6 class="category"><?php echo strip_tags(get_the_tag_list('',', ',''));?></h6>
+                            </div>
+                        </div>
+                        <h3 class="card-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                        <p class="card-description"><?php the_excerpt(); ?></p>
+                    </div>
+
+
                 </div>
-                
+
+            </div>
+
             <?php
               endforeach;
               endif;
             ?>
-                
-            </div>
-        </div>
+
+        </div><br>
+
+
+
 
         <br><br><br>
 
+
+
     </div>
+
 </div>
 
 
