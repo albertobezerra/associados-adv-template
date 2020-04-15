@@ -204,8 +204,21 @@ Tags: Advogados Associados, Advocagia, Direto
 //--//-->   BLOG
 ======================================*/
 
+.img-fluid {
+    border-radius: 4px 4px 0px 0px;
+}
+
 .card-blog {
-    background-color: aquamarine;
+    background-color: #67071f;
+    border: none;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.card-blog:hover {
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
 }
 
 .card-blog .card-img {
@@ -232,7 +245,7 @@ Tags: Advogados Associados, Advocagia, Direto
     color: #fff;
     padding: 0 15px 5px;
     overflow: hidden;
-    background-color: #0078ff;
+    background-color: #7D7C7D;
     border-radius: 4px;
 }
 
@@ -245,11 +258,15 @@ Tags: Advogados Associados, Advocagia, Direto
     margin-bottom: 0;
 }
 
-.card-blog .card-title {
+.card-blog .card-title > a {
     font-size: 1.3rem;
     margin-top: .6rem;
+    color: #fff;
 }
 
-.card-blog .card-description {
-    color: #4e4e4e;
+.card-body .card-description > p {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: white;
 }
