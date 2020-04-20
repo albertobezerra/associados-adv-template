@@ -62,8 +62,16 @@ Tags: Advogados Associados, Advocagia, Direto
 }
 
 .inicio {
-    margin-top: 80px;
+    margin-top: 10%;
     background-color: #67071F;
+}
+
+@media (max-width: 576px) {
+
+    .inicio {
+        margin-top: 32%;
+        background-color: #67071F;
+    }
 }
 
 .areasdeatuacao {
