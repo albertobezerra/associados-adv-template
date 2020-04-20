@@ -97,7 +97,7 @@
         <div class="row">
 
             <?php 
-            $args = array('post_type'=>'post', 'category_name'=>'blog', 'showposts'=>7 );
+            $args = array('post_type'=>'post', 'category_name'=>'blog', 'showposts'=>3 );
             $my_posts = get_posts( $args );
             if($my_posts) : foreach($my_posts as $post) : setup_postdata( $post );?>
 
@@ -109,7 +109,7 @@
                         <a href="<?php the_permalink(); ?>">
                             <?php the_post_thumbnail(false, array('class'=>'img-fluid')); ?></a>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body card-body-custom">
                         <div class="card-category-box">
                             <div class="card-category">
                                 <h6 class="category"><?php echo strip_tags(get_the_tag_list('',', ',''));?></h6>
@@ -132,7 +132,7 @@
         </div><br>
 
 
-
+        <button type="button" class="btn btn-primary btn-primary-custom">+ postagens</button>
 
         <br><br><br>
 

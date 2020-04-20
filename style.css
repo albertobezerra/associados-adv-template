@@ -265,8 +265,26 @@ Tags: Advogados Associados, Advocagia, Direto
 }
 
 .card-body .card-description > p {
-    color: #fff;
     margin-top: 0;
     margin-bottom: 1rem;
     color: white;
+}
+
+.card-body-custom > p {
+    color: white;
+}
+
+.btn-primary-custom {
+    background-color: #67071f;
+    color: white;
+    border: 0px;
+    width: 30%;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+.btn-primary-custom:hover {
+    background-color: white;
+    border: 0;
+    color: #67071f;
 }
