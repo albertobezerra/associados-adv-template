@@ -151,6 +151,10 @@ Tags: Advogados Associados, Advocagia, Direto
     color: white;
 }
 
+.localdologo > img {
+    width: 280px;
+}
+
 /* Rules for sizing the icon. */
 .material-icons.md-12 {
     font-size: 12px;
