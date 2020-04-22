@@ -5,7 +5,7 @@ Author: Alberto Bezerra
 Author URI: http://www.equipebezerradasilva.com/alberto
 Description: Tema desenvolvido sobre demanda.
 Version: 1.0
-Tags: Advogados Associados, Advocagia, Direto
+Tags: Advogados Associados, Advocagia, Direto, Caruaru
 
 */
 
@@ -25,7 +25,7 @@ Tags: Advogados Associados, Advocagia, Direto
 
 .navbar-light .navbar-nav .active > .nav-link {
     color: white;
-    background-color: #7D7C7D;
+    border: 1px solid white;
     padding: 10px;
 }
 
@@ -37,7 +37,7 @@ Tags: Advogados Associados, Advocagia, Direto
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: white;
-    background-color: #7D7C7D;
+    border: 1px solid white;
 }
 
 .navbar-light .navbar-toggler {
@@ -286,11 +286,13 @@ Tags: Advogados Associados, Advocagia, Direto
     color: white;
 }
 
+.card-body-custom-atuacao {}
+
 .btn-primary-custom {
     background-color: #67071f;
     color: white;
     border: 0px;
-    width: 30%;
+    width: auto;
     height: 50px;
     text-transform: uppercase;
 }
@@ -299,4 +301,9 @@ Tags: Advogados Associados, Advocagia, Direto
     background-color: white;
     border: 0;
     color: #67071f;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.escritorio {
+    margin-top: 5%;
 }

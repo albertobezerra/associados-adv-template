@@ -35,54 +35,33 @@
         <p class="esp">Especialidades</p>
         <h1 class="esp">Áreas de atuação</h1><br><br><br>
 
-        <div class="row row-cols-1 row-cols-md-2">
+        <div class="row">
 
-            <div class="col mb-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <?php 
+            $args = array('post_type'=>'post', 'category_name'=>'atuacao', 'showposts'=>3 );
+            $my_posts = get_posts( $args );
+            if($my_posts) : foreach($my_posts as $post) : setup_postdata( $post );?>
+
+            <div class="col-md-4">
+
+                <div class="card card-atuacao">
+
+                    <div class=" card-body card-body-custom-atuacao">
+                        <h3 class="card-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                        <p class="card-description"><?php the_excerpt(); ?></p>
                     </div>
+
+
                 </div>
+
             </div>
 
-            <div class="col mb-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
+            <?php
+              endforeach;
+              endif;
+            ?>
 
-            <div class="col mb-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col mb-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col mb-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
         </div>
-
         <br><br><br>
     </div>
 </div>
@@ -91,13 +70,13 @@
     <div class="container">
 
         <br><br>
-        <p class="esp">Últimas postagens</p>
-        <h1 class="esp">Blog</h1><br><br><br>
+        <p class="esp">Últimas orientações</p>
+        <h1 class="esp">Orientações Jurídicas</h1><br><br><br>
 
         <div class="row">
 
             <?php 
-            $args = array('post_type'=>'post', 'category_name'=>'blog', 'showposts'=>3 );
+            $args = array('post_type'=>'post', 'category_name'=>'orientacao', 'showposts'=>3 );
             $my_posts = get_posts( $args );
             if($my_posts) : foreach($my_posts as $post) : setup_postdata( $post );?>
 
@@ -132,7 +111,7 @@
         </div><br>
 
 
-        <button type="button" class="btn btn-primary btn-primary-custom">+ postagens</button>
+        <button type="button" class="btn btn-primary btn-primary-custom">+ orientações</button>
 
         <br><br><br>
 
