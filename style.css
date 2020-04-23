@@ -19,7 +19,7 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 }
 
 .navbar-brand > img {
-    width: 280px;
+    width: 330px;
 }
 
 
@@ -74,10 +74,46 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
     }
 }
 
+
+/*======================================
+//--//-->   AREAS DE ATUAÇÃO
+======================================*/
+
 .areasdeatuacao {
     background-color: #67071F;
     text-align: center;
 }
+
+.card-atuacao {
+    background-color: white;
+    border: none;
+}
+
+.card-title {
+    text-decoration: none;
+    color: #67071F;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.card-link {
+    color: #67071F;
+}
+
+.card-link:hover {
+    color: #7D7C7D;
+}
+
+.icone-atuacao {
+    width: 20%;
+}
+
+
+/*======================================
+//--//-->   FIM --- AREAS DE ATUAÇÃO
+======================================*/
+
+
 
 .esp {
     text-transform: uppercase;
@@ -163,6 +199,10 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
     width: 280px;
 }
 
+/*======================================
+//--//-->   MATERIAL ICON
+======================================*/
+
 /* Rules for sizing the icon. */
 .material-icons.md-12 {
     font-size: 12px;
@@ -170,6 +210,10 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 
 .material-icons.md-18 {
     font-size: 18px;
+}
+
+.material-icons.md-22 {
+    font-size: 22px;
 }
 
 .material-icons.md-24 {
@@ -202,6 +246,17 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
     color: rgba(255, 255, 255, 0.3);
 }
 
+.material-icons.adv {
+    color: #67071f;
+}
+
+
+/*======================================
+//--//-->   MATERIAL ICON
+======================================*/
+
+
+
 .cidade {
     color: white;
     font-size: 12px;
@@ -213,7 +268,7 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 
 
 /*======================================
-//--//-->   BLOG
+//--//-->   BLOG DA PRINCIPAL
 ======================================*/
 
 .img-fluid {
@@ -285,8 +340,6 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 .card-body-custom > p {
     color: white;
 }
-
-.card-body-custom-atuacao {}
 
 .btn-primary-custom {
     background-color: #67071f;

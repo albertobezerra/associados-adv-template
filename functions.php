@@ -14,7 +14,7 @@ add_action('after_setup_theme','add_suport_theme');
  **************************************/
 
 function novo_tamanho_do_resumo($length) {
-  return 20;
+  return 30;
 }
 add_filter('excerpt_length', 'novo_tamanho_do_resumo');
 
@@ -35,7 +35,6 @@ function wp_responsivo_scripts() {
   // Carregando CSS header
   wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
   wp_enqueue_style( 'style', get_stylesheet_uri() );
-  
   // Carregando Scripts header
   wp_enqueue_script('bootstrap-js', get_template_directory_uri().'/assets/js/bootstrap.min.js', array('jquery') );
 

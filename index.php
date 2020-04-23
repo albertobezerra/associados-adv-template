@@ -35,10 +35,11 @@
         <p class="esp">Especialidades</p>
         <h1 class="esp">Áreas de atuação</h1><br><br><br>
 
+
         <div class="row">
 
             <?php 
-            $args = array('post_type'=>'post', 'category_name'=>'atuacao', 'showposts'=>3 );
+            $args = array('post_type'=>'post', 'category_name'=>'atuacao', 'showposts'=>10 );
             $my_posts = get_posts( $args );
             if($my_posts) : foreach($my_posts as $post) : setup_postdata( $post );?>
 
@@ -46,9 +47,12 @@
 
                 <div class="card card-atuacao">
 
-                    <div class=" card-body card-body-custom-atuacao">
-                        <h3 class="card-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                        <p class="card-description"><?php the_excerpt(); ?></p>
+                    <div class="card-body">
+                        <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/balanca.png" class="icone-atuacao">
+                        <h5 class="card-title"><?php the_title(); ?></h5>
+                        <p class="card-text"><?php the_excerpt(); ?></p>
+                        <a href="https://api.whatsapp.com/send?phone=5581994024363&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20hor%C3%A1rio!" class="card-link "><strong>Falar com o especialista!</strong></a>
+
                     </div>
 
 
