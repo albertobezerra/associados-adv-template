@@ -9,6 +9,12 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 
 */
 
+
+/*======================================
+//--//-->   PRINCIPAL
+======================================*/
+
+
 .container {
     padding: 10px;
 }
@@ -17,6 +23,21 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
     font-family: 'Cabin', sans-serif;
     font-family: 'Oswald', sans-serif;
 }
+
+
+
+
+
+
+
+
+
+
+
+/*======================================
+//--//-->   MENU PRINCIPAL
+======================================*/
+
 
 .navbar-brand > img {
     width: 330px;
@@ -75,6 +96,17 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
 /*======================================
 //--//-->   AREAS DE ATUAÇÃO
 ======================================*/
@@ -87,6 +119,7 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 .card-atuacao {
     background-color: white;
     border: none;
+    margin-bottom: 30px;
 }
 
 .card-title {
@@ -109,9 +142,14 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 }
 
 
-/*======================================
-//--//-->   FIM --- AREAS DE ATUAÇÃO
-======================================*/
+
+
+
+
+
+
+
+
 
 
 
@@ -121,23 +159,25 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
     color: white;
 }
 
-.esp2 {
-    text-transform: uppercase;
-    font-family: Oswald;
-    color: #67071F;
-}
-
-.esp3 {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: Oswald;
-    color: #67071F;
-}
-
 .blog-inicial {
     background-color: #7D7C7D;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================================
+//--//-->   FOOTER
+======================================*/
 
 .footer {
     background-image: url("assets/images/caruaru.jpg");
@@ -157,34 +197,6 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
     text-align: center;
 }
 
-.form-control2 {
-
-    color: white;
-    background-color: #67071f;
-    border: 1px solid white;
-
-}
-
-.form-control2:focus {
-
-    color: white;
-    background-color: #67071f;
-    border: 1px solid white;
-}
-
-.btn-enviar {
-    color: white;
-    width: 100%;
-    background-color: #67071f;
-    border: 1px solid white;
-}
-
-.btn-enviar:hover {
-    color: white;
-    width: 100%;
-    background-color: #33040f;
-    border: 1px solid white;
-}
 
 .rodade {
     background-color: black;
@@ -198,6 +210,38 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 .localdologo > img {
     width: 280px;
 }
+
+.cidade {
+    color: white;
+    font-size: 12px;
+}
+
+.espacotop {
+    margin-top: 12px;
+}
+
+.esp3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Oswald;
+    color: #67071F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*======================================
 //--//-->   MATERIAL ICON
@@ -257,14 +301,16 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 
 
 
-.cidade {
-    color: white;
-    font-size: 12px;
-}
 
-.espacotop {
-    margin-top: 12px;
-}
+
+
+
+
+
+
+
+
+
 
 
 /*======================================
@@ -282,10 +328,6 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
     margin-left: 10px;
     margin-right: 10px;
 
-}
-
-.card-blog:hover {
-    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
 }
 
 .card-blog .card-img {
@@ -329,6 +371,7 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
     font-size: 1.3rem;
     margin-top: .6rem;
     color: #fff;
+    text-decoration: none;
 }
 
 .card-body .card-description > p {
@@ -340,6 +383,35 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 .card-body-custom > p {
     color: white;
 }
+
+.leiamais{
+    width: 100%;
+    height: auto;
+    background-color: #7D7C7D;
+    color: white;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.leiamais:hover{
+    background-color: white;
+    color: #67071f;
+    border: none;
+}
+
+.leiamais:active{
+    background-color: white;
+    color: #67071f;
+    border: none;
+}
+
+.leiamais:visited{
+    background-color: white;
+    color: #67071f;
+    border: none;
+}
+
 
 .btn-primary-custom {
     background-color: #67071f;
