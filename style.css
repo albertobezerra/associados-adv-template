@@ -112,7 +112,10 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 ======================================*/
 
 .areasdeatuacao {
-    background-color: #67071F;
+    background-image: url("assets/images/backvinho.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
 }
 
@@ -141,6 +144,9 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
     width: 20%;
 }
 
+/*======================================
+//--//-->   AREAS DE ATUAÇÃO
+======================================*/
 
 
 
@@ -153,6 +159,10 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 
 
 
+
+/*======================================
+//--//-->   COISAS ALEATORIAS
+======================================*/
 .esp {
     text-transform: uppercase;
     font-family: Oswald;
@@ -160,8 +170,20 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 }
 
 .blog-inicial {
-    background-color: #7D7C7D;
+    background-image: url("assets/images/backchumbo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
+    text-align: center;
+}
+
+.whatsapp {
+    position: fixed;
+    top: 82%;
+    left: 1%;
+    padding: 10px;
+    z-index: 10000000;
 }
 
 
@@ -414,12 +436,13 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 
 
 .btn-primary-custom {
-    background-color: #67071f;
-    color: white;
+    background-color: white;
+    color: #67071f;
     border: 0px;
     width: auto;
     height: 50px;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .btn-primary-custom:hover {
