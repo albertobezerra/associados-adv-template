@@ -175,7 +175,6 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-    text-align: center;
 }
 
 .whatsapp {
@@ -201,22 +200,9 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 //--//-->   FOOTER
 ======================================*/
 
-.footer {
+.mapa {
     background-image: url("assets/images/caruaru.jpg");
     background-size: cover;
-}
-
-.footer1 {
-    padding: 0 !important;
-    border: 0 !important;
-}
-
-
-.footer2 {
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 40px;
-    text-align: center;
 }
 
 
@@ -454,4 +440,39 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 
 .escritorio {
     margin-top: 5%;
+}
+
+/*======================================
+//--//-->   BLOG DA PRINCIPAL
+======================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================================
+//--//-->   DIFERENCIAIS
+======================================*/
+
+.diferenciais{
+    background-image: url("assets/images/backvinho2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.conteudo{
+    margin: 10px ;
+    text-align: center;
 }

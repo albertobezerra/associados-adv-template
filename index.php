@@ -130,6 +130,61 @@
 
 </div>
 
+<div class="diferenciais">
+    <div class="container">
+     
+        <div class="conteudo">
+            <br><br>
+            <h1 class="esp">Diferenciais do nosso escritório</h1><br>
+
+            <p class="esp">Aprimoramento profissional de toda a equipe e investimento em tecnologia<br> como pilares essenciais para entregar a melhor aplicação das normas jurídicas à sociedade.</p><br><br>
+
+
+        <div class="row">
+
+
+            <div class="col-md-4">
+                <div class="card card-atuacao">
+                    <div class="card-body">
+
+                        <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/tecnologia.png" class="icone-atuacao">
+                        <h5 class="card-title">TECNOLOGIA</h5>
+                        <p class="card-text">O escritório combina inteligência, informação e tecnologia, promovendo otimização e gestão eficiente, visão global e sistematizada do negócio, além de uma atuação preventiva e estratégica pela automação de processos.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card card-atuacao">
+                    <div class="card-body">
+
+                        <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/software.png" class="icone-atuacao">
+                        <h5 class="card-title">SOFTWARE JURÍDICO</h5>
+                        <p class="card-text">Uso do software Legal One Firm para otimizar os processos dos clientes, prezando pela segurança, agilidade, diminuição da quantidade de documentos físicos e controle de prazos.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card card-atuacao">
+                    <div class="card-body">
+
+                        <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/equipe.png" class="icone-atuacao">
+                        <h5 class="card-title">EQUIPE ESPECIALIZADA</h5>
+                        <p class="card-text">Equipe de profissionais competentes em suas diversas áreas de atuação com uma visão empreendedora e imenso afã pela atividade que exercem.</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+</div>
+
 
 
 
