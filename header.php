@@ -21,7 +21,7 @@
 <body>
 
 
-    <div class="menu_principal">
+   <div class="menu_principal">
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light bg-light-custom fixed-top">
 

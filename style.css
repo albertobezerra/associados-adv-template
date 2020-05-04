@@ -87,11 +87,15 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
     background-color: #67071F;
 }
 
-@media (max-width: 576px) {
+@media (max-width:  575.98px) {
 
     .inicio {
-        margin-top: 32%;
+        margin-top: 31%;
         background-color: #67071F;
+    }
+
+    .navbar-brand > img {
+    width: 250px;
     }
 }
 
@@ -203,11 +207,13 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 .mapa {
     background-image: url("assets/images/caruaru.jpg");
     background-size: cover;
+    height: 300px;
 }
 
 
 .rodade {
-    background-color: black;
+    background-color: #67071F;
+    padding: 30px;
 }
 
 .localdologo {
@@ -234,7 +240,9 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
     font-family: Oswald;
     color: #67071F;
 }
-
+/*======================================
+//--//-->   FOOTER
+======================================*/
 
 
 
@@ -470,9 +478,35 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-bottom: 30px;
 }
 
 .conteudo{
     margin: 10px ;
     text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================================
+//--//-->   DIREITOS AUTORAIS
+======================================*/
+
+
+.direitos{
+    background-color: #440618;
+    padding: 20px;
+    text-align: center;
+    color: white;
 }

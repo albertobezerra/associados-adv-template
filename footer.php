@@ -20,7 +20,11 @@
 					<span class="material-icons md-12 md-light">loyalty</span>
 					Escritório de Advocacia localizado no coração de Caruaru.
 
-					<p class="espacotop"><span class="material-icons md-12 md-light">phone_in_talk</span> 81 9 0000-0000</p>
+					<p class="espacotop"><span class="material-icons md-12 md-light">phone_in_talk</span> 81 99402-4363</p>
+
+					<p><span class="material-icons md-12 md-light">email</span> contato@marcoslimaefilho.adv.br </p>
+
+					<p><span class="material-icons md-12 md-light">map</span> R. Pôrto Alegre, 115 - Nossa Sra. das Dores, Caruaru - PE, 55004-270</p>
 
 				</div>
 
@@ -49,6 +53,10 @@
 
 	</div>
 
+</div>
+
+<div class="direitos">
+	© Marcos Lima & Filho - Todos os Direitos Reservados
 </div>
 
 </div>

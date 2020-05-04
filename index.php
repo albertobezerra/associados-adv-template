@@ -11,13 +11,21 @@
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/slide1.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/slide1.jpg" class="d-block w-100" alt="...">
+                <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/slide2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/slide3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/slide4.jpg" class="d-block w-100" alt="...">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -54,7 +62,6 @@
                     <div class="card-body">
                         <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/balanca.png" class="icone-atuacao">
                         <h5 class="card-title"><?php the_title(); ?></h5>
-                        <p class="card-text"><?php the_excerpt(); ?></p>
                         <a href="https://api.whatsapp.com/send?phone=5581994024363&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20hor%C3%A1rio!" class="card-link" target="_blank"><strong>Falar com o especialista!</strong></a>
 
                     </div>
@@ -70,6 +77,10 @@
             ?>
 
         </div>
+        
+
+        <a href="http://www.marcoslimaefilho.adv.br/nossaatuacao"><button type="button" class="btn btn-primary btn-primary-custom">+ informações sobre</button></a>
+
         <br><br><br>
     </div>
 </div>
@@ -120,7 +131,7 @@
         </div><br>
 
 
-        <button type="button" class="btn btn-primary btn-primary-custom">+ orientações</button>
+        <a href="http://www.marcoslimaefilho.adv.br/orientacao"><button type="button" class="btn btn-primary btn-primary-custom">+ orientações</button></a>
 
         <br><br><br>
 
@@ -184,8 +195,6 @@
 
     </div>
 </div>
-
-
 
 
 
