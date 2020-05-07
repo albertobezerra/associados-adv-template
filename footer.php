@@ -12,34 +12,8 @@
 				
 				<h4 class="esp-contato-form">Deixe sua mensagem</h4><br><br>
 
-				<!--<iframe src="http://marcoslimaefilho.adv.br/form/contato.php" width="100%" height="300px"></iframe>-->
+				<iframe frameborder="0" src="http://marcoslimaefilho.adv.br/form/index.php" width="100%" height="88%"></iframe>
 
-				<!--<form action="enviacontato.php"  method="post">-->
-
-			<form action=""  method="post">
-					
-					<div class="form-group">
-						<label for="nome" class="custom-label">NOME</label>
-						<input type="text" class="form-control" id="nome" required>
-					</div>
-
-					<div class="form-group">
-						<label for="telefone" class="custom-label">TELEFONE</label>
-						<input type="phone" class="form-control" id="telefone" required>
-					</div>
-
-					<div class="form-group">
-						<label for="email" class="custom-label">E-MAIL</label>
-						<input type="mail" class="form-control" id="email">
-					</div>
-
-					<div class="form-group">
-				    <label for="mensagem" class="custom-label">MENSAGEM</label>
-				    <textarea class="form-control" id="mensagem" rows="3" required></textarea></div>
-
-				    <button class="btn btn-form-custom" type="submit">ENVIAR</button>
-
-				</form>
 
 			</div>
 
@@ -53,12 +27,10 @@
 
 					<p class="desc"><span class="material-icons md-18 md-light">access_time</span> Segunda à sexta-feira | 8h às 12h e 14h às 18h</p><br>
 
-					<p class="desc"><span class="material-icons md-18  md-light">phone_in_talk</span> 81 99402-4363</p><br>
+					<p class="desc"><span class="material-icons md-18  md-light">phone_in_talk</span> 81 99203-0000</p><br>
 
 					<p class="desc"><span class="material-icons md-18 md-light">email</span> contato@marcoslimaefilho.adv.br </p><br>
-
-					
-				
+	
 
     		</div>
 		</div>
@@ -98,9 +70,9 @@
 
 			    	<a href="https://www.facebook.com/Marcos-Lima-e-Filho-Advocacia-e-Consult%C3%B3ria-Jur%C3%ADdica-101472758232623" target="_blank"><img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/btn-face.png" class="tamanho-btn-social" alt="Facebook"></a>
 
-			    	<img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/btn-insta.png" class="tamanho-btn-social" alt="Instagram">
+			    	<a href="https://www.instagram.com/marcoslimaefilho/" target="_blank"><img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/btn-insta.png" class="tamanho-btn-social" alt="Instagram"></a>
 
-			    	<a href="https://api.whatsapp.com/send?phone=5581994024363&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20hor%C3%A1rio!" class="card-link" target="_blank"><img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/btn-whats.png" class="tamanho-btn-social" alt="Instagram"></a>
+			    	<a href="https://api.whatsapp.com/send?phone=5581992030000&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20hor%C3%A1rio!" class="card-link" target="_blank"><img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/btn-whats.png" class="tamanho-btn-social" alt="Instagram"></a>
 
 			    	</div>
 			    </div>
