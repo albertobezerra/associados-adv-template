@@ -94,11 +94,11 @@
 
 			    	Nossas redes sociais <br>
 
-			    	<img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/btn-face.png" class="tamanho-btn-social" alt="Facebook">
+			    	<a href="https://www.facebook.com/Marcos-Lima-e-Filho-Advocacia-e-Consult%C3%B3ria-Jur%C3%ADdica-101472758232623" target="_blank"><img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/btn-face.png" class="tamanho-btn-social" alt="Facebook"></a>
 
 			    	<img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/btn-insta.png" class="tamanho-btn-social" alt="Instagram">
 
-			    	<img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/btn-whats.png" class="tamanho-btn-social" alt="Instagram">
+			    	<a href="https://api.whatsapp.com/send?phone=5581994024363&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20hor%C3%A1rio!" class="card-link" target="_blank"><img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/btn-whats.png" class="tamanho-btn-social" alt="Instagram"></a>
 
 			    	</div>
 			    </div>
