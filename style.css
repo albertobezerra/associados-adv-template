@@ -127,6 +127,8 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
     background-color: white;
     border: none;
     margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .card-title {
@@ -329,6 +331,7 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 
 .localbtnsocail{
     padding-left: 10px;
+    padding-bottom: 20px;
 }
 
 .tamanho-btn-social{
@@ -336,6 +339,14 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
     width: 20px !important;
     height: 20px !important;
 
+}
+
+.facebook{
+    padding-bottom: 20px;
+}
+
+.instagram{
+    padding-bottom: 20px;
 }
 /*======================================
 //--//-->   FOOTER
