@@ -1,4 +1,4 @@
-<div class="contato">
+<div class="contato" id="contato">
 	<div class="container">
 		
 		<br><br>
@@ -124,6 +124,18 @@
 
 </div>
 
+<script src=”https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js”></script>
+
+<script>
+var $doc = $(‘html, body’);
+$(‘a’).click(function() {
+$doc.animate({
+scrollTop: $( $.attr(this, ‘href’) ).offset().top
+}, 500);
+return false;
+});
+</script>
+
 
 <?php wp_footer(); ?>
 
@@ -134,6 +146,9 @@
 
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v6.0"></script>
+
+
+
 
 </body>
 
