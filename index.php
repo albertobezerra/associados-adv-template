@@ -63,7 +63,7 @@
                         <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/balanca.png" class="icone-atuacao">
                         <h5 class="card-title"><?php the_title(); ?></h5>
                         <p class="card-description"><?php the_excerpt(); ?></p>
-                        <a href="https://api.whatsapp.com/send?phone=5581992030000&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20hor%C3%A1rio!" class="card-link" target="_blank"><strong>Falar com o especialista!</strong></a>
+                        <a href="https://api.whatsapp.com/send?phone=5581992030000&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio!" class="card-link" target="_blank"><strong>Falar com o especialista!</strong></a>
 
                     </div>
 
@@ -173,7 +173,7 @@
 
                         <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/software.png" class="icone-atuacao">
                         <h5 class="card-title">SOFTWARE JURÍDICO</h5>
-                        <p class="card-text">Uso do software Legal One Firm para otimizar os processos dos clientes, prezando pela segurança, agilidade, diminuição da quantidade de documentos físicos e controle de prazos.</p>
+                        <p class="card-text">Uso do software para otimizar os processos dos clientes, prezando pela segurança, agilidade, diminuição da quantidade de documentos físicos e controle de prazos.</p>
 
                     </div>
                 </div>

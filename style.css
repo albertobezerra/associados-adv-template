@@ -700,3 +700,56 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
     background-repeat: no-repeat;
     text-align: center;
 }
+
+
+/*======================================
+//--//-->   PAGE ORIENTACAO
+======================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================================
+//--//-->   POST INTERNO
+======================================*/
+
+
+
+.post-interno{
+
+    background-image: url("assets/images/backvinho.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    padding-top: 140px;
+
+}
+
+.post > h2{
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: Oswald;
+    text-transform: uppercase;
+
+}
+
+.post > p{
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+}

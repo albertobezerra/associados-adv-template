@@ -72,7 +72,7 @@
 
 			    	<a href="https://www.instagram.com/marcoslimaefilho/" target="_blank"><img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/btn-insta.png" class="tamanho-btn-social" alt="Instagram"></a>
 
-			    	<a href="https://api.whatsapp.com/send?phone=5581992030000&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20hor%C3%A1rio!" class="card-link" target="_blank"><img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/btn-whats.png" class="tamanho-btn-social" alt="Instagram"></a>
+			    	<a href="https://api.whatsapp.com/send?phone=5581992030000&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio!" class="card-link" target="_blank"><img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/btn-whats.png" class="tamanho-btn-social" alt="Instagram"></a>
 
 			    	</div>
 			    </div>
@@ -82,7 +82,13 @@
 
 				</div>
 
-			    <div class="col-sm instagram">Instagram</div>
+			    <div class="col-sm instagram">
+
+					<!-- SnapWidget -->
+					<script src="https://snapwidget.com/js/snapwidget.js"></script>
+					<iframe src="https://snapwidget.com/embed/824381" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+
+			    </div>
 
 
 		</div>

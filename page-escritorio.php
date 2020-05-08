@@ -9,7 +9,7 @@
 
         <h1>Nosso Escritório</h1><br> 
         
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>O escritório MARCOS LIMA E FILHO – ADVOCACIA E CONSULTORIA JURÍDICA, por meio do seu fundador o Dr. MARCOS ALVES DE LIMA, que desempenha há mais de 35 anos um papel de destaque no cenário jurídico da região nordeste do país. Onde Exerce a advocacia pautada na ética, transparência e esmero na atenção aos interesses dos clientes. O escritório tem por zelo contínuo o aprimoramento profissional de toda a equipe e investimento em tecnologia como pilares essenciais para entregar a melhor aplicação das normas jurídicas à sociedade.</p>
         
         <br><br><br>
 
