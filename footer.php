@@ -84,9 +84,9 @@
 
 			    <div class="col-sm instagram">
 
-					<!-- SnapWidget -->
-					<script src="https://snapwidget.com/js/snapwidget.js"></script>
-					<iframe src="https://snapwidget.com/embed/824381" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+<!-- SnapWidget -->
+<script src="https://snapwidget.com/js/snapwidget.js"></script>
+<iframe src="https://snapwidget.com/embed/825424" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
 
 			    </div>
 

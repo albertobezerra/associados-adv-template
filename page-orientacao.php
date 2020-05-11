@@ -16,7 +16,7 @@
         <div class="row">
 
             <?php 
-            $args = array('post_type'=>'post', 'category_name'=>'orientacao', 'showposts'=>6 );
+            $args = array('post_type'=>'post', 'category_name'=>'orientacao', 'showposts'=>50 );
             $my_posts = get_posts( $args );
             if($my_posts) : foreach($my_posts as $post) : setup_postdata( $post );?>
 

@@ -14,7 +14,7 @@ add_action('after_setup_theme','add_suport_theme');
  **************************************/
 
 function novo_tamanho_do_resumo($length) {
-  return 30;
+  return 50;
 }
 add_filter('excerpt_length', 'novo_tamanho_do_resumo');
 
