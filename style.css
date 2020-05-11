@@ -124,23 +124,29 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 }
 
 .card-atuacao {
-    background-color: white;
-    border: none;
+    background-color: rgba(76, 175, 80, 0);
+    border: white solid 2px;
     margin-bottom: 30px;
     margin-left: 10px;
     margin-right: 10px;
+    color: white;
 }
 
-.card-title {
+.card-title-atuacao {
     text-decoration: none;
-    color: #67071F;
+    color: white;
     font-weight: bold;
     margin-top: 20px;
     text-transform: uppercase;
 }
 
+.card-atuacao > p{
+    color: white !important;
+
+}
+
 .card-link {
-    color: #67071F;;
+    color: white;
 }
 
 .card-link:hover {
@@ -149,6 +155,23 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 
 .icone-atuacao {
     width: 20%;
+}
+
+.btn-primary-custom-atuacao {
+    background-color: rgba(76, 175, 80, 0);;
+    color: white;
+    border: white solid 2px;
+    width: auto;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-primary-custom-atuacao:hover {
+    background-color: white;
+    border: 0;
+    color: #67071f;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
 }
 
 /*======================================
@@ -592,6 +615,20 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 .conteudo{
     margin: 10px ;
     text-align: center;
+}
+
+
+.card-title-difereciais {
+    text-decoration: none;
+    color: #67071f;
+    font-weight: bold;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+
+.icone-diferenciais {
+    width: 20%;
 }
 
 

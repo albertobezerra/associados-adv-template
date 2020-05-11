@@ -60,9 +60,9 @@
                 <div class="card card-atuacao">
 
                     <div class="card-body">
-                        <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/balanca.png" class="icone-atuacao">
-                        <h5 class="card-title"><?php the_title(); ?></h5>
-                        <p class="card-description"><?php the_excerpt(); ?></p>
+                        <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/balancabranca.png" class="icone-atuacao">
+                        <h5 class="card-title-atuacao"><?php the_title(); ?></h5>
+                        <p class="card-description-atuacao"><?php the_excerpt(); ?></p>
                         <a href="https://api.whatsapp.com/send?phone=5581992030000&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio!" class="card-link" target="_blank"><strong>Falar com o especialista!</strong></a>
 
                     </div>
@@ -80,7 +80,7 @@
         </div>
         
 
-        <a href="http://www.marcoslimaefilho.adv.br/nossaatuacao"><button type="button" class="btn btn-primary btn-primary-custom">+ informações sobre</button></a>
+        <a href="http://www.marcoslimaefilho.adv.br/nossaatuacao"><button type="button" class="btn btn-primary btn-primary-custom-atuacao">+ informações sobre</button></a>
 
         <br><br><br>
     </div>
@@ -156,11 +156,11 @@
 
 
             <div class="col-md-4">
-                <div class="card card-atuacao">
+                <div class="card card-diferenciais">
                     <div class="card-body">
 
-                        <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/tecnologia.png" class="icone-atuacao">
-                        <h5 class="card-title">TECNOLOGIA</h5>
+                        <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/tecnologia.png" class="icone-diferenciais">
+                        <h5 class="card-title-difereciais">TECNOLOGIA</h5>
                         <p class="card-text">O escritório combina inteligência, informação e tecnologia, promovendo otimização e gestão eficiente, visão global e sistematizada do negócio, além de uma atuação preventiva e estratégica pela automação de processos.</p>
 
                     </div>
@@ -168,11 +168,11 @@
             </div>
 
             <div class="col-md-4">
-                <div class="card card-atuacao">
+                <div class="card card-diferenciais">
                     <div class="card-body">
 
-                        <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/software.png" class="icone-atuacao">
-                        <h5 class="card-title">SOFTWARE JURÍDICO</h5>
+                        <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/software.png" class="icone-diferenciais">
+                        <h5 class="card-title-difereciais">SOFTWARE JURÍDICO</h5>
                         <p class="card-text">Uso do software para otimizar os processos dos clientes, prezando pela segurança, agilidade, diminuição da quantidade de documentos físicos e controle de prazos.</p>
 
                     </div>
@@ -180,11 +180,11 @@
             </div>
 
             <div class="col-md-4">
-                <div class="card card-atuacao">
+                <div class="card card-diferenciais">
                     <div class="card-body">
 
-                        <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/equipe.png" class="icone-atuacao">
-                        <h5 class="card-title">EQUIPE ESPECIALIZADA</h5>
+                        <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/equipe.png" class="icone-diferenciais">
+                        <h5 class="card-title-difereciais">EQUIPE ESPECIALIZADA</h5>
                         <p class="card-text">Equipe de profissionais competentes em suas diversas áreas de atuação com uma visão empreendedora e imenso afã pela atividade que exercem.</p>
 
                     </div>
