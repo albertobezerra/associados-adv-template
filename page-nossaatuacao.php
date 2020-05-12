@@ -47,6 +47,36 @@
 
         <br><br><br>
 
+
+        <div class="row">
+            <div class="col-md-4">
+
+                <div class="card1 card-flip">
+
+                    <div class="card-front">
+
+                        <div class="card-body">
+
+                        <img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/balancabranca.png" class="icone-atuacao">
+                        <h5 class="card-title">Card 001</h5>
+                        <p class="card-description">Texto da frente do card</p>
+                        <a href="https://api.whatsapp.com/send?phone=5581992030000&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio!" class="" target="_blank"><strong>Falar com o especialista!</strong></a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="card-back bg-white">
+                        <div class="card-body">
+                            <h3 class="card-title">Back</h3>
+                            <p class="card-text">Suprise this one has more more more more content on the back!</p>
+                            <a href="#" class="btn btn-outline-secondary">Action</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 

@@ -78,11 +78,15 @@
 			    </div>
 			    <div class="col-sm facebook">
 
-			    	<div class="fb-page" data-href="https://www.facebook.com/Marcos-Lima-e-Filho-Advocacia-e-Consult%C3%B3ria-Jur%C3%ADdica-101472758232623/" data-tabs="timeline" data-width="" data-height="238" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Marcos-Lima-e-Filho-Advocacia-e-Consult%C3%B3ria-Jur%C3%ADdica-101472758232623/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Marcos-Lima-e-Filho-Advocacia-e-Consult%C3%B3ria-Jur%C3%ADdica-101472758232623/">Marcos Lima e Filho - Advocacia e Consultória Jurídica</a></blockquote></div>
+			    	<p>NOSSO FACEBOOK</p>
+
+			    	<div class="fb-page" data-href="https://www.facebook.com/Marcos-Lima-e-Filho-Advocacia-e-Consult%C3%B3ria-Jur%C3%ADdica-101472758232623/" data-tabs="timeline" data-width="" data-height="238" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Marcos-Lima-e-Filho-Advocacia-e-Consult%C3%B3ria-Jur%C3%ADdica-101472758232623/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Marcos-Lima-e-Filho-Advocacia-e-Consult%C3%B3ria-Jur%C3%ADdica-101472758232623/">Marcos Lima e Filho - Advocacia e Consultoria Jurídica</a></blockquote></div>
 
 				</div>
 
 			    <div class="col-sm instagram">
+
+			    	<p>NOSSO INSTAGRAM</p>
 
 <!-- SnapWidget -->
 <script src="https://snapwidget.com/js/snapwidget.js"></script>
