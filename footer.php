@@ -70,7 +70,7 @@
 
 			    	<a href="https://www.facebook.com/Marcos-Lima-e-Filho-Advocacia-e-Consult%C3%B3ria-Jur%C3%ADdica-101472758232623" target="_blank"><img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/btn-face.png" class="tamanho-btn-social" alt="Facebook"></a>
 
-			    	<a href="https://www.instagram.com/marcoslimaefilho/" target="_blank"><img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/btn-insta.png" class="tamanho-btn-social" alt="Instagram"></a>
+			    	<a href="https://www.instagram.com/marcoslimaefilho.adv/" target="_blank"><img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/btn-insta.png" class="tamanho-btn-social" alt="Instagram"></a>
 
 			    	<a href="https://api.whatsapp.com/send?phone=5581992030000&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio!" class="card-link" target="_blank"><img src="<?php bloginfo( 'template_directory' ); ?>/assets/images/btn-whats.png" class="tamanho-btn-social" alt="Instagram"></a>
 
@@ -88,9 +88,21 @@
 
 			    	<p>NOSSO INSTAGRAM</p>
 
-<!-- SnapWidget -->
-<script src="https://snapwidget.com/js/snapwidget.js"></script>
-<iframe src="https://snapwidget.com/embed/825424" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+			    	<?php 
+		            $args = array('post_type'=>'post', 'category_name'=>'insta');
+		            $my_posts = get_posts( $args );
+		            if($my_posts) : foreach($my_posts as $post) : setup_postdata( $post );
+		            ?>
+
+					<?php the_content(); ?>
+	
+
+		            <?php
+		              endforeach;
+		              endif;
+		            ?>
+
+					
 
 			    </div>
 
