@@ -707,11 +707,13 @@ Tags: Advogados Associados, Advocagia, Direto, Caruaru
 
 .page-nossatuacao{
     
-    background-image: url("assets/images/escritorio.jpg");
+    background-image: url("assets/images/backvinho.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
+    padding-bottom: 40px;
+
 }
 
 /*======================================
@@ -823,10 +825,10 @@ flip card
     word-wrap: break-word;
     background-color: none;
     background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid white;
     border-radius: .25rem;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 
@@ -850,12 +852,13 @@ flip card
   border-radius: .25rem;
 }
 
+
 .card-back {
   transform: rotateY(180deg);
   position: absolute;
   top: 0;
 
-  background-color: green !important;
+  background-color: rgba(76, 175, 80, 0);
   border-radius: .25rem;
 }
 
@@ -864,5 +867,168 @@ flip card
 }
   
 .card-flip:hover .card-back {
+  transform: rotateY(0deg);
+}
+
+
+.card-front-empresarial {
+  transform: rotateY(0deg);
+    background-image: url("assets/images/back_cards/empresarial.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  border: 0px;
+  border-radius: .25rem;
+}
+
+.card-back-empresarial {
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+
+  background-color: rgba(76, 175, 80, 0);
+  border-radius: .25rem;
+}
+
+.card-flip:hover .card-front-empresarial {
+  transform: rotateY(-180deg);
+}
+  
+.card-flip:hover .card-back-empresarial {
+  transform: rotateY(0deg);
+}
+
+.card-front-previdenciario {
+  transform: rotateY(0deg);
+    background-image: url("assets/images/back_cards/previdenciario.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  border: 0px;
+  border-radius: .25rem;
+}
+
+.card-back-previdenciario {
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+
+  background-color: rgba(76, 175, 80, 0);
+  border-radius: .25rem;
+}
+
+.card-flip:hover .card-front-previdenciario {
+  transform: rotateY(-180deg);
+}
+  
+.card-flip:hover .card-back-previdenciario {
+  transform: rotateY(0deg);
+}
+
+.card-front-trabalhista {
+  transform: rotateY(0deg);
+    background-image: url("assets/images/back_cards/trabalhista.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  border: 0px;
+  border-radius: .25rem;
+}
+
+.card-back-trabalhista {
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+
+  background-color: rgba(76, 175, 80, 0);
+  border-radius: .25rem;
+}
+
+.card-flip:hover .card-front-trabalhista {
+  transform: rotateY(-180deg);
+}
+  
+.card-flip:hover .card-back-trabalhista {
+  transform: rotateY(0deg);
+}
+
+.card-front-familia {
+  transform: rotateY(0deg);
+    background-image: url("assets/images/back_cards/familia.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  border: 0px;
+  border-radius: .25rem;
+}
+
+.card-back-familia {
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+
+  background-color: rgba(76, 175, 80, 0);
+  border-radius: .25rem;
+}
+
+.card-flip:hover .card-front-familia {
+  transform: rotateY(-180deg);
+}
+  
+.card-flip:hover .card-back-familia {
+  transform: rotateY(0deg);
+}
+
+.card-front-tributario {
+  transform: rotateY(0deg);
+    background-image: url("assets/images/back_cards/tributario.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  border: 0px;
+  border-radius: .25rem;
+}
+
+.card-back-tributario {
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+
+  background-color: rgba(76, 175, 80, 0);
+  border-radius: .25rem;
+}
+
+.card-flip:hover .card-front-tributario {
+  transform: rotateY(-180deg);
+}
+  
+.card-flip:hover .card-back-tributario {
+  transform: rotateY(0deg);
+}
+
+.card-front-consumidor {
+  transform: rotateY(0deg);
+    background-image: url("assets/images/back_cards/consumidor.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  border: 0px;
+  border-radius: .25rem;
+}
+
+.card-back-consumidor {
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+
+  background-color: rgba(76, 175, 80, 0);
+  border-radius: .25rem;
+}
+
+.card-flip:hover .card-front-consumidor {
+  transform: rotateY(-180deg);
+}
+  
+.card-flip:hover .card-back-consumidor {
   transform: rotateY(0deg);
 }
