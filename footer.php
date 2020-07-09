@@ -3,7 +3,9 @@
 		
 		<br><br>
 		<h1 class="esp-contato">Contatos</h1><br>
-		<p class="esp-contato">Para solicitar orientação jurídica deixe sua mensagem abaixo.<br>Nossa equipe irá responder você em breve.</p><br><br><br>
+		<p class="esp-contato">Para solicitar orientação jurídica deixe sua mensagem abaixo.<br>Nossa equipe irá responder você em breve.</p>
+
+		<center><a href="https://bot.marcoslimaefilho.adv.br/"><button type="button" class="btn btn-primary btn-primary-custom">ACESSO DIRETO</button></a></center><br><br><br>
 
 		<div class="row">
 
@@ -30,6 +32,8 @@
 					<p class="desc"><span class="material-icons md-18  md-light">phone_in_talk</span> 81 99203-0000</p><br>
 
 					<p class="desc"><span class="material-icons md-18 md-light">email</span> contato@marcoslimaefilho.adv.br </p><br>
+
+
 	
 
     		</div>
